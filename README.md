@@ -1,2 +1,2 @@
 # OpenMPI_Scripts
-An Scripts for use openMPI on a resticted network (University of ALicante)
+An Scripts for use openMPI on a resticted network (University of Alicante)
