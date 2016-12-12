@@ -27,6 +27,7 @@ else
 			do
 				echo "$host"
  				$(scp $1 $host:~/)
+				$(scp $2 $host:~/)
 			done
 		else
 			echo "NO EXISTE EL ARCHIVO $2"
