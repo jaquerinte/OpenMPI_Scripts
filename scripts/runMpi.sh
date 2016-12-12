@@ -25,7 +25,7 @@ else
 		if [ -a $2 ]; then
 			numberlines=$(cat $2 | wc -l)
 			echo "$numberlines HOSTS"
-			$(mpirun -mca plm_rsh_no_tree_spawn 1 -hostfile $2 -n $numberlines $1)
+			mpirun -mca plm_rsh_no_tree_spawn 1 -hostfile $2 -n $numberlines $1
 		else
 			echo "NO EXISTE EL ARCHIVO $2"
 		fi
